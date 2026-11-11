@@ -117,7 +117,9 @@ return [
      * ],
      * ```
      */
-    'servers' => null,
+    'servers' => [
+    'Production' => 'https://laravel-todo-api-7y8g.onrender.com/api',
+],
 
     /**
      * Determines how Scramble stores the descriptions of enum cases.
